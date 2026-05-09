@@ -1,0 +1,25 @@
+{
+  "name": "consistent-hash-lb",
+  "type": "module",
+  "scripts": {
+    "servers": "node servers.js",
+    "lb": "node loadBalancer.js",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "http-proxy": "^1.18.1"
+    
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "hashRing.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.11"
+  }
+}
